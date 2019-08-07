@@ -61,7 +61,6 @@ body {
     @include flex-direction(column);
     @include align-items(center);
     @include justify-content(center);
-    @include flex(1);
     padding: 10px;
 
 }
