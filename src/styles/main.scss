@@ -86,6 +86,7 @@ body {
 form {
     background: white;
     border-radius: 5px;
+    height: 100%;
     padding: 15px;
     @include display-flex();
     @include flex-direction(column);
@@ -126,10 +127,10 @@ form {
     .img-container {
         margin-bottom: 7px;
         max-width: 200px;
-        text-align: center;
 
         img {
             width: 100%;
+            text-align: center;
         }
     }
 
@@ -203,20 +204,5 @@ form {
         .img-container {
             max-width: 150px;
         }
-    }
-}
-
-@media all and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-    #container {
-        display: table;
-        height: 100%;
-        width: 100%;
-        text-align: center;
-    }
-
-    form {
-        display: table-cell;
-        vertical-align: middle
     }
 }
